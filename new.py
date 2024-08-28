@@ -52,7 +52,7 @@ button_img = PhotoImage(file="./Button.png")
 # question_img = PhotoImage(file="./Question.png")
 
 image = canvas.create_image(400, 260, image=c_front_img)
-upper_text = canvas.create_text(400, 75, text='Lorem Epsum. Lorem Epsum. Lorem Epsum. Lorem Epsum.\nLorem Epsum. Lorem Epsum.', anchor="center", font=('Ariel', 20, "italic"), fill='Black')
+upper_text = canvas.create_text(400, 75, text='Lorem Epsum. Lorem Epsum. Lorem Epsum. Lorem Epsum.\nLorem Epsum. Lorem Epsum.Lorem Epsum. Lorem Epsum. Lorem Epsum. Lorem Epsum.\nLorem Epsum. Lorem Epsum.Lorem Epsum. Lorem Epsum. Lorem Epsum. Lorem Epsum.\nLorem Epsum. Lorem Epsum.', anchor="center", font=('Ariel', 20, "italic"), fill='Black', width=600, justify="center")
 # choice1 = canvas.create_text(180, 250, text="choice1", anchor='center', font=('Ariel', 40, "italic"), fill='Black')
 # choice2 = canvas.create_text(600, 250, text="choice2", anchor='center', font=('Ariel', 40, "italic"), fill='Black')
 # choice3 = canvas.create_text(180, 400, text="choice3", anchor='center', font=('Ariel', 40, "italic"), fill='Black')
